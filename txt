@@ -1,0 +1,1153 @@
+D/图片处理: 执行了接收方法receiveIMG：FACE_20230528171631.jpg requestcode：9
+D/图片处理: 准备执行train,requestCode:9
+D/图片处理: 执行了train：FACE_20230528171631.jpg
+D/图片处理: 把jpg变成了intent：Intent { act=android.intent.action.OPEN_DOCUMENT dat=content://pp.facerecognizer.fileprovider/facerecognizer/FACE_20230528171631.jpg typ=image/* flg=0x43 }
+D/图片处理: 1
+D/图片处理: 3
+D/图片处理: getData()为：content://pp.facerecognizer.fileprovider/facerecognizer/FACE_20230528171631.jpg
+D/图片处理: Onmessage调用receiveIMG
+D/图片处理: 建立了新线程updateData
+D/图片处理: 执行updateData
+I/facerecognizer: MultiBoxTracker: Processing 0 results from 98
+I/DecorView: navBarColor: fffcfcfc statusBarColor: ff757575 statusInsets: Insets{left=0, top=0, right=0, bottom=0} navInsets: Insets{left=0, top=0, right=0, bottom=0}
+I/DecorView: updateColorViewInt type:1 size: 0 showView:false color:fffcfcfc
+I/DecorView: updateColorViewInt type:0 size: 0 showView:false color:66000000
+I/HwViewRootImpl: removeInvalidNode all the node in jank list is out of time
+I/facerecognizer: FileUtils: Saving 160x160 bitmap to /storage/emulated/0/facerecognizer.
+I/facerecognizer: FileUtils: Make dir failed
+D/LibSVM-NDK: NDK: jniSvmTrain cmd = -t 0 -b 1 /storage/emulated/0/facerecognizer/data /storage/emulated/0/facerecognizer/model
+D/LibSVM-NDK: NDK: *
+D/LibSVM-NDK: NDK:
+    optimization finished, #iter = 19
+D/LibSVM-NDK: NDK: nu = 0.169031
+D/LibSVM-NDK: NDK: obj = -2.821680, rho = 0.173899
+D/LibSVM-NDK: NDK: nSV = 11, nBSV = 3
+D/LibSVM-NDK: NDK: Total nSV = 11
+D/LibSVM-NDK: NDK: *
+D/LibSVM-NDK: NDK: .
+D/LibSVM-NDK: NDK: *
+D/LibSVM-NDK: NDK:
+    optimization finished, #iter = 32
+D/LibSVM-NDK: NDK: nu = 0.165605
+D/LibSVM-NDK: NDK: obj = -2.723234, rho = 0.230539
+D/LibSVM-NDK: NDK: nSV = 12, nBSV = 2
+D/LibSVM-NDK: NDK: Total nSV = 12
+D/LibSVM-NDK: NDK: *
+D/LibSVM-NDK: NDK: .
+D/LibSVM-NDK: NDK: *
+D/LibSVM-NDK: NDK:
+    optimization finished, #iter = 33
+D/LibSVM-NDK: NDK: nu = 0.169459
+D/LibSVM-NDK: NDK: obj = -2.805415, rho = 0.187864
+D/LibSVM-NDK: NDK: nSV = 11, nBSV = 2
+D/LibSVM-NDK: NDK: Total nSV = 11
+D/LibSVM-NDK: NDK: *
+D/LibSVM-NDK: NDK:
+    optimization finished, #iter = 20
+D/LibSVM-NDK: NDK: nu = 0.183015
+D/LibSVM-NDK: NDK: obj = -2.934357, rho = 0.213329
+D/LibSVM-NDK: NDK: nSV = 8, nBSV = 2
+D/LibSVM-NDK: NDK: Total nSV = 8
+D/LibSVM-NDK: NDK: *
+D/LibSVM-NDK: NDK:
+    optimization finished, #iter = 25
+D/LibSVM-NDK: NDK: nu = 0.166739
+D/LibSVM-NDK: NDK: obj = -2.694824, rho = 0.172417
+D/LibSVM-NDK: NDK: nSV = 11, nBSV = 2
+D/LibSVM-NDK: NDK: Total nSV = 11
+D/LibSVM-NDK: NDK: *
+D/LibSVM-NDK: NDK:
+    optimization finished, #iter = 22
+D/LibSVM-NDK: NDK: nu = 0.147098
+D/LibSVM-NDK: NDK: obj = -2.941820, rho = 0.220735
+D/LibSVM-NDK: NDK: nSV = 9, nBSV = 0
+D/LibSVM-NDK: NDK: *
+D/LibSVM-NDK: NDK:
+    optimization finished, #iter = 24
+D/LibSVM-NDK: NDK: nu = 0.122016
+D/LibSVM-NDK: NDK: obj = -1.952002, rho = 0.010182
+D/LibSVM-NDK: NDK: nSV = 10, nBSV = 0
+D/LibSVM-NDK: NDK: Total nSV = 10
+D/LibSVM-NDK: NDK: *
+D/LibSVM-NDK: NDK:
+    optimization finished, #iter = 31
+D/LibSVM-NDK: NDK: nu = 0.118917
+D/LibSVM-NDK: NDK: obj = -1.902858, rho = 0.017491
+D/LibSVM-NDK: NDK: nSV = 12, nBSV = 0
+D/LibSVM-NDK: NDK: Total nSV = 12
+D/LibSVM-NDK: NDK: *
+D/LibSVM-NDK: NDK:
+    optimization finished, #iter = 27
+D/LibSVM-NDK: NDK: nu = 0.118544
+D/LibSVM-NDK: NDK: obj = -1.896482, rho = 0.021947
+D/LibSVM-NDK: NDK: nSV = 10, nBSV = 0
+D/LibSVM-NDK: NDK: Total nSV = 10
+D/LibSVM-NDK: NDK: *
+D/LibSVM-NDK: NDK:
+    optimization finished, #iter = 27
+D/LibSVM-NDK: NDK: nu = 0.116975
+D/LibSVM-NDK: NDK: obj = -1.871567, rho = -0.021993
+D/LibSVM-NDK: NDK: nSV = 13, nBSV = 0
+D/LibSVM-NDK: NDK: Total nSV = 13
+D/LibSVM-NDK: NDK: *
+D/LibSVM-NDK: NDK:
+    optimization finished, #iter = 29
+D/LibSVM-NDK: NDK: nu = 0.114235
+D/LibSVM-NDK: NDK: obj = -1.827928, rho = -0.025782
+D/LibSVM-NDK: NDK: nSV = 11, nBSV = 0
+D/LibSVM-NDK: NDK: Total nSV = 11
+D/LibSVM-NDK: NDK: *
+D/LibSVM-NDK: NDK:
+    optimization finished, #iter = 24
+D/LibSVM-NDK: NDK: nu = 0.097830
+D/LibSVM-NDK: NDK: obj = -1.956429, rho = 0.004476
+D/LibSVM-NDK: NDK: nSV = 10, nBSV = 0
+D/LibSVM-NDK: NDK: *
+D/LibSVM-NDK: NDK:
+    optimization finished, #iter = 28
+D/LibSVM-NDK: NDK: nu = 0.085180
+D/LibSVM-NDK: NDK: obj = -1.363101, rho = 0.033965
+D/LibSVM-NDK: NDK: nSV = 12, nBSV = 0
+D/LibSVM-NDK: NDK: Total nSV = 12
+D/LibSVM-NDK: NDK: *
+D/LibSVM-NDK: NDK: .
+D/LibSVM-NDK: NDK: *
+D/LibSVM-NDK: NDK:
+    optimization finished, #iter = 35
+D/LibSVM-NDK: NDK: nu = 0.081979
+D/LibSVM-NDK: NDK: obj = -1.311726, rho = -0.004491
+D/LibSVM-NDK: NDK: nSV = 13, nBSV = 0
+D/LibSVM-NDK: NDK: Total nSV = 13
+D/LibSVM-NDK: NDK: *
+D/LibSVM-NDK: NDK: .
+D/LibSVM-NDK: NDK: *
+D/LibSVM-NDK: NDK:
+    optimization finished, #iter = 56
+D/LibSVM-NDK: NDK: nu = 0.083739
+D/LibSVM-NDK: NDK: obj = -1.339700, rho = 0.026127
+D/LibSVM-NDK: NDK: nSV = 16, nBSV = 0
+D/LibSVM-NDK: NDK: Total nSV = 16
+D/LibSVM-NDK: NDK: *
+D/LibSVM-NDK: NDK: .
+D/LibSVM-NDK: NDK: *
+D/LibSVM-NDK: NDK:
+    optimization finished, #iter = 32
+D/LibSVM-NDK: NDK: nu = 0.086223
+D/LibSVM-NDK: NDK: obj = -1.379368, rho = 0.031031
+D/LibSVM-NDK: NDK: nSV = 14, nBSV = 0
+D/LibSVM-NDK: NDK: Total nSV = 14
+D/LibSVM-NDK: NDK: *
+D/LibSVM-NDK: NDK: .
+D/LibSVM-NDK: NDK: *
+D/LibSVM-NDK: NDK:
+    optimization finished, #iter = 35
+D/LibSVM-NDK: NDK: nu = 0.085958
+D/LibSVM-NDK: NDK: obj = -1.375108, rho = 0.032801
+D/LibSVM-NDK: NDK: nSV = 13, nBSV = 0
+D/LibSVM-NDK: NDK: Total nSV = 13
+D/LibSVM-NDK: NDK: *
+D/LibSVM-NDK: NDK: .
+D/LibSVM-NDK: NDK: *
+D/LibSVM-NDK: NDK:
+    optimization finished, #iter = 51
+D/LibSVM-NDK: NDK: nu = 0.068971
+D/LibSVM-NDK: NDK: obj = -1.379510, rho = 0.031411
+D/LibSVM-NDK: NDK: nSV = 16, nBSV = 0
+D/LibSVM-NDK: NDK: *
+D/LibSVM-NDK: NDK:
+    optimization finished, #iter = 14
+D/LibSVM-NDK: NDK: nu = 0.110150
+D/LibSVM-NDK: NDK: obj = -1.781835, rho = -0.154182
+D/LibSVM-NDK: NDK: nSV = 6, nBSV = 1
+D/LibSVM-NDK: NDK: Total nSV = 6
+D/LibSVM-NDK: NDK: *
+D/LibSVM-NDK: NDK:
+    optimization finished, #iter = 24
+D/LibSVM-NDK: NDK: nu = 0.102657
+D/LibSVM-NDK: NDK: obj = -1.642252, rho = -0.088657
+D/LibSVM-NDK: NDK: nSV = 10, nBSV = 0
+D/LibSVM-NDK: NDK: Total nSV = 10
+D/LibSVM-NDK: NDK: *
+D/LibSVM-NDK: NDK:
+    optimization finished, #iter = 16
+D/LibSVM-NDK: NDK: nu = 0.107154
+D/LibSVM-NDK: NDK: obj = -1.746870, rho = -0.143466
+D/LibSVM-NDK: NDK: nSV = 8, nBSV = 2
+D/LibSVM-NDK: NDK: Total nSV = 8
+D/LibSVM-NDK: NDK: *
+D/LibSVM-NDK: NDK:
+    optimization finished, #iter = 17
+D/LibSVM-NDK: NDK: nu = 0.110061
+D/LibSVM-NDK: NDK: obj = -1.779335, rho = -0.127994
+D/LibSVM-NDK: NDK: nSV = 10, nBSV = 1
+D/LibSVM-NDK: NDK: Total nSV = 10
+D/LibSVM-NDK: NDK: *
+D/LibSVM-NDK: NDK: .
+D/LibSVM-NDK: NDK: *
+D/LibSVM-NDK: NDK:
+    optimization finished, #iter = 34
+D/LibSVM-NDK: NDK: nu = 0.107996
+D/LibSVM-NDK: NDK: obj = -1.753230, rho = -0.152543
+D/LibSVM-NDK: NDK: nSV = 12, nBSV = 1
+D/LibSVM-NDK: NDK: Total nSV = 12
+D/LibSVM-NDK: NDK: *
+D/LibSVM-NDK: NDK:
+    optimization finished, #iter = 27
+D/LibSVM-NDK: NDK: nu = 0.088346
+D/LibSVM-NDK: NDK: obj = -1.784189, rho = -0.148107
+D/LibSVM-NDK: NDK: nSV = 9, nBSV = 1
+D/LibSVM-NDK: NDK: *
+D/LibSVM-NDK: NDK:
+    optimization finished, #iter = 11
+D/LibSVM-NDK: NDK: nu = 0.124074
+D/LibSVM-NDK: NDK: obj = -1.489156, rho = -0.155399
+D/LibSVM-NDK: NDK: nSV = 7, nBSV = 1
+D/LibSVM-NDK: NDK: Total nSV = 7
+D/LibSVM-NDK: NDK: *
+D/LibSVM-NDK: NDK:
+    optimization finished, #iter = 15
+D/LibSVM-NDK: NDK: nu = 0.123885
+D/LibSVM-NDK: NDK: obj = -1.486587, rho = -0.174491
+D/LibSVM-NDK: NDK: nSV = 8, nBSV = 0
+D/LibSVM-NDK: NDK: Total nSV = 8
+D/LibSVM-NDK: NDK: *
+D/LibSVM-NDK: NDK:
+    optimization finished, #iter = 16
+D/LibSVM-NDK: NDK: nu = 0.119064
+D/LibSVM-NDK: NDK: obj = -1.429055, rho = -0.128564
+D/LibSVM-NDK: NDK: nSV = 9, nBSV = 0
+D/LibSVM-NDK: NDK: Total nSV = 9
+D/LibSVM-NDK: NDK: *
+D/LibSVM-NDK: NDK:
+    optimization finished, #iter = 17
+D/LibSVM-NDK: NDK: nu = 0.124434
+D/LibSVM-NDK: NDK: obj = -1.493172, rho = -0.165120
+D/LibSVM-NDK: NDK: nSV = 8, nBSV = 0
+D/LibSVM-NDK: NDK: Total nSV = 8
+D/LibSVM-NDK: NDK: *
+D/LibSVM-NDK: NDK:
+    optimization finished, #iter = 14
+D/LibSVM-NDK: NDK: nu = 0.124227
+D/LibSVM-NDK: NDK: obj = -1.490447, rho = -0.164793
+D/LibSVM-NDK: NDK: nSV = 8, nBSV = 0
+D/LibSVM-NDK: NDK: Total nSV = 8
+D/LibSVM-NDK: NDK: *
+D/LibSVM-NDK: NDK:
+    optimization finished, #iter = 12
+D/LibSVM-NDK: NDK: nu = 0.099578
+D/LibSVM-NDK: NDK: obj = -1.493363, rho = -0.166694
+D/LibSVM-NDK: NDK: nSV = 9, nBSV = 0
+D/LibSVM-NDK: NDK: *
+D/LibSVM-NDK: NDK:
+    optimization finished, #iter = 13
+D/LibSVM-NDK: NDK: nu = 0.096259
+D/LibSVM-NDK: NDK: obj = -1.154993, rho = -0.125432
+D/LibSVM-NDK: NDK: nSV = 7, nBSV = 0
+D/LibSVM-NDK: NDK: Total nSV = 7
+D/LibSVM-NDK: NDK: *
+D/LibSVM-NDK: NDK:
+    optimization finished, #iter = 9
+D/LibSVM-NDK: NDK: nu = 0.097740
+D/LibSVM-NDK: NDK: obj = -1.173027, rho = -0.139228
+D/LibSVM-NDK: NDK: nSV = 6, nBSV = 1
+D/LibSVM-NDK: NDK: Total nSV = 6
+D/LibSVM-NDK: NDK: *
+D/LibSVM-NDK: NDK:
+    optimization finished, #iter = 16
+D/LibSVM-NDK: NDK: nu = 0.098448
+D/LibSVM-NDK: NDK: obj = -1.181384, rho = -0.140601
+D/LibSVM-NDK: NDK: nSV = 7, nBSV = 0
+D/LibSVM-NDK: NDK: Total nSV = 7
+D/LibSVM-NDK: NDK: *
+D/LibSVM-NDK: NDK:
+    optimization finished, #iter = 10
+D/LibSVM-NDK: NDK: nu = 0.095756
+D/LibSVM-NDK: NDK: obj = -1.148770, rho = -0.133726
+D/LibSVM-NDK: NDK: nSV = 7, nBSV = 0
+D/LibSVM-NDK: NDK: Total nSV = 7
+D/LibSVM-NDK: NDK: *
+D/LibSVM-NDK: NDK:
+    optimization finished, #iter = 10
+D/LibSVM-NDK: NDK: nu = 0.098379
+D/LibSVM-NDK: NDK: obj = -1.180418, rho = -0.132913
+D/LibSVM-NDK: NDK: nSV = 6, nBSV = 0
+D/LibSVM-NDK: NDK: Total nSV = 6
+D/LibSVM-NDK: NDK: *
+D/LibSVM-NDK: NDK:
+    optimization finished, #iter = 9
+D/LibSVM-NDK: NDK: nu = 0.078767
+D/LibSVM-NDK: NDK: obj = -1.181384, rho = -0.140463
+D/LibSVM-NDK: NDK: nSV = 7, nBSV = 0
+D/LibSVM-NDK: NDK: *
+D/LibSVM-NDK: NDK:
+    optimization finished, #iter = 12
+D/LibSVM-NDK: NDK: nu = 0.117647
+D/LibSVM-NDK: NDK: obj = -1.321949, rho = -0.426021
+D/LibSVM-NDK: NDK: nSV = 7, nBSV = 1
+D/LibSVM-NDK: NDK: Total nSV = 7
+D/LibSVM-NDK: NDK: *
+D/LibSVM-NDK: NDK:
+    optimization finished, #iter = 9
+D/LibSVM-NDK: NDK: nu = 0.117647
+D/LibSVM-NDK: NDK: obj = -1.328479, rho = -0.432758
+D/LibSVM-NDK: NDK: nSV = 6, nBSV = 1
+D/LibSVM-NDK: NDK: Total nSV = 6
+D/LibSVM-NDK: NDK: *
+D/LibSVM-NDK: NDK:
+    optimization finished, #iter = 11
+D/LibSVM-NDK: NDK: nu = 0.117647
+D/LibSVM-NDK: NDK: obj = -1.326518, rho = -0.441095
+D/LibSVM-NDK: NDK: nSV = 6, nBSV = 1
+D/LibSVM-NDK: NDK: Total nSV = 6
+D/LibSVM-NDK: NDK: *
+D/LibSVM-NDK: NDK:
+    optimization finished, #iter = 14
+D/LibSVM-NDK: NDK: nu = 0.125000
+D/LibSVM-NDK: NDK: obj = -1.312141, rho = -0.409458
+D/LibSVM-NDK: NDK: nSV = 8, nBSV = 1
+D/LibSVM-NDK: NDK: Total nSV = 8
+D/LibSVM-NDK: NDK: *
+D/LibSVM-NDK: NDK:
+    optimization finished, #iter = 10
+D/LibSVM-NDK: NDK: nu = 0.095238
+D/LibSVM-NDK: NDK: obj = -1.330370, rho = -0.442238
+D/LibSVM-NDK: NDK: nSV = 8, nBSV = 1
+D/LibSVM-NDK: NDK: *
+D/LibSVM-NDK: NDK:
+    optimization finished, #iter = 30
+D/LibSVM-NDK: NDK: nu = 0.179593
+D/LibSVM-NDK: NDK: obj = -2.965661, rho = 0.022192
+D/LibSVM-NDK: NDK: nSV = 13, nBSV = 1
+D/LibSVM-NDK: NDK: Total nSV = 13
+D/LibSVM-NDK: NDK: *
+D/LibSVM-NDK: NDK:
+    optimization finished, #iter = 28
+D/LibSVM-NDK: NDK: nu = 0.156891
+D/LibSVM-NDK: NDK: obj = -2.524796, rho = -0.027326
+D/LibSVM-NDK: NDK: nSV = 10, nBSV = 1
+D/LibSVM-NDK: NDK: Total nSV = 10
+D/LibSVM-NDK: NDK: *
+D/LibSVM-NDK: NDK: .
+D/LibSVM-NDK: NDK: *
+D/LibSVM-NDK: NDK:
+    optimization finished, #iter = 42
+D/LibSVM-NDK: NDK: nu = 0.178225
+D/LibSVM-NDK: NDK: obj = -2.973737, rho = 0.007246
+D/LibSVM-NDK: NDK: nSV = 14, nBSV = 1
+D/LibSVM-NDK: NDK: Total nSV = 14
+D/LibSVM-NDK: NDK: *
+D/LibSVM-NDK: NDK: .
+D/LibSVM-NDK: NDK: *
+D/LibSVM-NDK: NDK:
+    optimization finished, #iter = 46
+D/LibSVM-NDK: NDK: nu = 0.167457
+D/LibSVM-NDK: NDK: obj = -2.799380, rho = -0.058369
+D/LibSVM-NDK: NDK: nSV = 14, nBSV = 1
+D/LibSVM-NDK: NDK: Total nSV = 14
+D/LibSVM-NDK: NDK: *
+D/LibSVM-NDK: NDK: .
+D/LibSVM-NDK: NDK: *
+D/LibSVM-NDK: NDK:
+    optimization finished, #iter = 41
+D/LibSVM-NDK: NDK: nu = 0.179729
+D/LibSVM-NDK: NDK: obj = -2.981070, rho = 0.020803
+D/LibSVM-NDK: NDK: nSV = 14, nBSV = 1
+D/LibSVM-NDK: NDK: Total nSV = 14
+D/LibSVM-NDK: NDK: *
+D/LibSVM-NDK: NDK: .
+D/LibSVM-NDK: NDK: *
+D/LibSVM-NDK: NDK:
+    optimization finished, #iter = 41
+D/LibSVM-NDK: NDK: nu = 0.144135
+D/LibSVM-NDK: NDK: obj = -2.984739, rho = 0.004159
+D/LibSVM-NDK: NDK: nSV = 15, nBSV = 1
+D/LibSVM-NDK: NDK: *
+D/LibSVM-NDK: NDK:
+    optimization finished, #iter = 29
+D/LibSVM-NDK: NDK: nu = 0.113326
+D/LibSVM-NDK: NDK: obj = -1.812968, rho = -0.073894
+D/LibSVM-NDK: NDK: nSV = 11, nBSV = 0
+D/LibSVM-NDK: NDK: Total nSV = 11
+D/LibSVM-NDK: NDK: *
+D/LibSVM-NDK: NDK: .
+D/LibSVM-NDK: NDK: *
+D/LibSVM-NDK: NDK:
+    optimization finished, #iter = 32
+D/LibSVM-NDK: NDK: nu = 0.104635
+D/LibSVM-NDK: NDK: obj = -1.674277, rho = -0.077374
+D/LibSVM-NDK: NDK: nSV = 11, nBSV = 0
+D/LibSVM-NDK: NDK: Total nSV = 11
+D/LibSVM-NDK: NDK: *
+D/LibSVM-NDK: NDK: .
+D/LibSVM-NDK: NDK: *
+D/LibSVM-NDK: NDK:
+    optimization finished, #iter = 34
+D/LibSVM-NDK: NDK: nu = 0.111730
+D/LibSVM-NDK: NDK: obj = -1.787422, rho = -0.106662
+D/LibSVM-NDK: NDK: nSV = 10, nBSV = 0
+D/LibSVM-NDK: NDK: Total nSV = 10
+D/LibSVM-NDK: NDK: *
+D/LibSVM-NDK: NDK:
+    optimization finished, #iter = 25
+D/LibSVM-NDK: NDK: nu = 0.113382
+D/LibSVM-NDK: NDK: obj = -1.814245, rho = -0.105451
+D/LibSVM-NDK: NDK: nSV = 10, nBSV = 0
+D/LibSVM-NDK: NDK: Total nSV = 10
+D/LibSVM-NDK: NDK: *
+D/LibSVM-NDK: NDK:
+    optimization finished, #iter = 31
+D/LibSVM-NDK: NDK: nu = 0.112383
+D/LibSVM-NDK: NDK: obj = -1.798311, rho = -0.059997
+D/LibSVM-NDK: NDK: nSV = 10, nBSV = 0
+D/LibSVM-NDK: NDK: Total nSV = 10
+D/LibSVM-NDK: NDK: *
+D/LibSVM-NDK: NDK:
+    optimization finished, #iter = 30
+D/LibSVM-NDK: NDK: nu = 0.092087
+D/LibSVM-NDK: NDK: obj = -1.841395, rho = -0.081871
+D/LibSVM-NDK: NDK: nSV = 10, nBSV = 0
+D/LibSVM-NDK: NDK: *
+D/LibSVM-NDK: NDK:
+    optimization finished, #iter = 20
+D/LibSVM-NDK: NDK: nu = 0.112285
+D/LibSVM-NDK: NDK: obj = -1.820889, rho = -0.074017
+D/LibSVM-NDK: NDK: nSV = 8, nBSV = 1
+D/LibSVM-NDK: NDK: Total nSV = 8
+D/LibSVM-NDK: NDK: *
+D/LibSVM-NDK: NDK:
+    optimization finished, #iter = 22
+D/LibSVM-NDK: NDK: nu = 0.118491
+D/LibSVM-NDK: NDK: obj = -1.906693, rho = -0.127477
+D/LibSVM-NDK: NDK: nSV = 10, nBSV = 1
+D/LibSVM-NDK: NDK: Total nSV = 10
+D/LibSVM-NDK: NDK: *
+D/LibSVM-NDK: NDK:
+    optimization finished, #iter = 22
+D/LibSVM-NDK: NDK: nu = 0.110958
+D/LibSVM-NDK: NDK: obj = -1.775592, rho = -0.167526
+D/LibSVM-NDK: NDK: nSV = 9, nBSV = 0
+D/LibSVM-NDK: NDK: Total nSV = 9
+D/LibSVM-NDK: NDK: *
+D/LibSVM-NDK: NDK:
+    optimization finished, #iter = 26
+D/LibSVM-NDK: NDK: nu = 0.112254
+D/LibSVM-NDK: NDK: obj = -1.796457, rho = -0.134709
+D/LibSVM-NDK: NDK: nSV = 12, nBSV = 0
+D/LibSVM-NDK: NDK: Total nSV = 12
+D/LibSVM-NDK: NDK: *
+D/LibSVM-NDK: NDK:
+    optimization finished, #iter = 22
+D/LibSVM-NDK: NDK: nu = 0.117827
+D/LibSVM-NDK: NDK: obj = -1.901979, rho = -0.111069
+D/LibSVM-NDK: NDK: nSV = 8, nBSV = 2
+D/LibSVM-NDK: NDK: Total nSV = 8
+D/LibSVM-NDK: NDK: *
+D/LibSVM-NDK: NDK:
+    optimization finished, #iter = 31
+D/LibSVM-NDK: NDK: nu = 0.094797
+D/LibSVM-NDK: NDK: obj = -1.906694, rho = -0.127491
+D/LibSVM-NDK: NDK: nSV = 10, nBSV = 1
+D/LibSVM-NDK: NDK: *
+D/LibSVM-NDK: NDK:
+    optimization finished, #iter = 15
+D/LibSVM-NDK: NDK: nu = 0.097006
+D/LibSVM-NDK: NDK: obj = -1.164023, rho = -0.193546
+D/LibSVM-NDK: NDK: nSV = 7, nBSV = 0
+D/LibSVM-NDK: NDK: Total nSV = 7
+D/LibSVM-NDK: NDK: *
+D/LibSVM-NDK: NDK:
+    optimization finished, #iter = 16
+D/LibSVM-NDK: NDK: nu = 0.096793
+D/LibSVM-NDK: NDK: obj = -1.161472, rho = -0.186325
+D/LibSVM-NDK: NDK: nSV = 9, nBSV = 1
+D/LibSVM-NDK: NDK: Total nSV = 9
+D/LibSVM-NDK: NDK: *
+D/LibSVM-NDK: NDK:
+    optimization finished, #iter = 17
+D/LibSVM-NDK: NDK: nu = 0.095547
+D/LibSVM-NDK: NDK: obj = -1.146659, rho = -0.183816
+D/LibSVM-NDK: NDK: nSV = 9, nBSV = 0
+D/LibSVM-NDK: NDK: Total nSV = 9
+D/LibSVM-NDK: NDK: *
+D/LibSVM-NDK: NDK:
+    optimization finished, #iter = 20
+D/LibSVM-NDK: NDK: nu = 0.094183
+D/LibSVM-NDK: NDK: obj = -1.130245, rho = -0.204232
+D/LibSVM-NDK: NDK: nSV = 10, nBSV = 0
+D/LibSVM-NDK: NDK: Total nSV = 10
+D/LibSVM-NDK: NDK: *
+D/LibSVM-NDK: NDK:
+    optimization finished, #iter = 11
+D/LibSVM-NDK: NDK: nu = 0.096703
+D/LibSVM-NDK: NDK: obj = -1.160520, rho = -0.193308
+D/LibSVM-NDK: NDK: nSV = 7, nBSV = 1
+D/LibSVM-NDK: NDK: Total nSV = 7
+D/LibSVM-NDK: NDK: *
+D/LibSVM-NDK: NDK:
+    optimization finished, #iter = 19
+D/LibSVM-NDK: NDK: nu = 0.077736
+D/LibSVM-NDK: NDK: obj = -1.165947, rho = -0.197981
+D/LibSVM-NDK: NDK: nSV = 8, nBSV = 0
+D/LibSVM-NDK: NDK: *
+D/LibSVM-NDK: NDK:
+    optimization finished, #iter = 14
+D/LibSVM-NDK: NDK: nu = 0.125253
+D/LibSVM-NDK: NDK: obj = -1.502950, rho = -0.254008
+D/LibSVM-NDK: NDK: nSV = 8, nBSV = 0
+D/LibSVM-NDK: NDK: Total nSV = 8
+D/LibSVM-NDK: NDK: *
+D/LibSVM-NDK: NDK:
+    optimization finished, #iter = 11
+D/LibSVM-NDK: NDK: nu = 0.127140
+D/LibSVM-NDK: NDK: obj = -1.525838, rho = -0.245565
+D/LibSVM-NDK: NDK: nSV = 6, nBSV = 1
+D/LibSVM-NDK: NDK: Total nSV = 6
+D/LibSVM-NDK: NDK: *
+D/LibSVM-NDK: NDK:
+    optimization finished, #iter = 17
+D/LibSVM-NDK: NDK: nu = 0.121003
+D/LibSVM-NDK: NDK: obj = -1.452066, rho = -0.194787
+D/LibSVM-NDK: NDK: nSV = 7, nBSV = 0
+D/LibSVM-NDK: NDK: Total nSV = 7
+D/LibSVM-NDK: NDK: *
+D/LibSVM-NDK: NDK:
+    optimization finished, #iter = 11
+D/LibSVM-NDK: NDK: nu = 0.127140
+D/LibSVM-NDK: NDK: obj = -1.525838, rho = -0.245565
+D/LibSVM-NDK: NDK: nSV = 6, nBSV = 1
+D/LibSVM-NDK: NDK: Total nSV = 6
+D/LibSVM-NDK: NDK: *
+D/LibSVM-NDK: NDK:
+    optimization finished, #iter = 14
+D/LibSVM-NDK: NDK: nu = 0.120852
+D/LibSVM-NDK: NDK: obj = -1.450279, rho = -0.228198
+D/LibSVM-NDK: NDK: nSV = 7, nBSV = 0
+D/LibSVM-NDK: NDK: Total nSV = 7
+D/LibSVM-NDK: NDK: *
+D/LibSVM-NDK: NDK:
+    optimization finished, #iter = 12
+D/LibSVM-NDK: NDK: nu = 0.101712
+D/LibSVM-NDK: NDK: obj = -1.525838, rho = -0.245540
+D/LibSVM-NDK: NDK: nSV = 6, nBSV = 0
+D/LibSVM-NDK: NDK: *
+D/LibSVM-NDK: NDK:
+    optimization finished, #iter = 16
+D/LibSVM-NDK: NDK: nu = 0.117647
+D/LibSVM-NDK: NDK: obj = -1.139939, rho = -0.299354
+D/LibSVM-NDK: NDK: nSV = 7, nBSV = 1
+D/LibSVM-NDK: NDK: Total nSV = 7
+D/LibSVM-NDK: NDK: *
+D/LibSVM-NDK: NDK:
+    optimization finished, #iter = 13
+D/LibSVM-NDK: NDK: nu = 0.117647
+D/LibSVM-NDK: NDK: obj = -1.110528, rho = -0.299304
+D/LibSVM-NDK: NDK: nSV = 9, nBSV = 1
+D/LibSVM-NDK: NDK: Total nSV = 9
+D/LibSVM-NDK: NDK: *
+D/LibSVM-NDK: NDK:
+    optimization finished, #iter = 14
+D/LibSVM-NDK: NDK: nu = 0.117647
+D/LibSVM-NDK: NDK: obj = -1.134354, rho = -0.294183
+D/LibSVM-NDK: NDK: nSV = 7, nBSV = 1
+D/LibSVM-NDK: NDK: Total nSV = 7
+D/LibSVM-NDK: NDK: *
+D/LibSVM-NDK: NDK:
+    optimization finished, #iter = 14
+D/LibSVM-NDK: NDK: nu = 0.125000
+D/LibSVM-NDK: NDK: obj = -1.142327, rho = -0.312140
+D/LibSVM-NDK: NDK: nSV = 7, nBSV = 1
+D/LibSVM-NDK: NDK: Total nSV = 7
+D/LibSVM-NDK: NDK: *
+D/LibSVM-NDK: NDK:
+    optimization finished, #iter = 15
+D/LibSVM-NDK: NDK: nu = 0.095238
+D/LibSVM-NDK: NDK: obj = -1.142328, rho = -0.312150
+D/LibSVM-NDK: NDK: nSV = 7, nBSV = 1
+D/LibSVM-NDK: NDK: *
+D/LibSVM-NDK: NDK:
+    optimization finished, #iter = 19
+D/LibSVM-NDK: NDK: nu = 0.138209
+D/LibSVM-NDK: NDK: obj = -2.268419, rho = -0.086112
+D/LibSVM-NDK: NDK: nSV = 10, nBSV = 1
+D/LibSVM-NDK: NDK: Total nSV = 10
+D/LibSVM-NDK: NDK: *
+D/LibSVM-NDK: NDK:
+    optimization finished, #iter = 26
+D/LibSVM-NDK: NDK: nu = 0.155355
+D/LibSVM-NDK: NDK: obj = -2.562922, rho = 0.044153
+D/LibSVM-NDK: NDK: nSV = 10, nBSV = 2
+D/LibSVM-NDK: NDK: Total nSV = 10
+D/LibSVM-NDK: NDK: *
+D/LibSVM-NDK: NDK:
+    optimization finished, #iter = 25
+D/LibSVM-NDK: NDK: nu = 0.139317
+D/LibSVM-NDK: NDK: obj = -2.237516, rho = 0.015753
+D/LibSVM-NDK: NDK: nSV = 9, nBSV = 1
+D/LibSVM-NDK: NDK: Total nSV = 9
+D/LibSVM-NDK: NDK: *
+D/LibSVM-NDK: NDK:
+    optimization finished, #iter = 20
+D/LibSVM-NDK: NDK: nu = 0.145882
+D/LibSVM-NDK: NDK: obj = -2.395224, rho = 0.076755
+D/LibSVM-NDK: NDK: nSV = 8, nBSV = 2
+D/LibSVM-NDK: NDK: Total nSV = 8
+D/LibSVM-NDK: NDK: *
+D/LibSVM-NDK: NDK:
+    optimization finished, #iter = 22
+D/LibSVM-NDK: NDK: nu = 0.157092
+D/LibSVM-NDK: NDK: obj = -2.579353, rho = -0.031216
+D/LibSVM-NDK: NDK: nSV = 10, nBSV = 2
+D/LibSVM-NDK: NDK: Total nSV = 10
+D/LibSVM-NDK: NDK: *
+D/LibSVM-NDK: NDK:
+    optimization finished, #iter = 32
+D/LibSVM-NDK: NDK: nu = 0.126434
+D/LibSVM-NDK: NDK: obj = -2.587569, rho = -0.021025
+D/LibSVM-NDK: NDK: nSV = 11, nBSV = 2
+D/LibSVM-NDK: NDK: *
+D/LibSVM-NDK: NDK:
+    optimization finished, #iter = 20
+D/LibSVM-NDK: NDK: nu = 0.101010
+D/LibSVM-NDK: NDK: obj = -1.616173, rho = -0.127731
+D/LibSVM-NDK: NDK: nSV = 9, nBSV = 0
+D/LibSVM-NDK: NDK: Total nSV = 9
+D/LibSVM-NDK: NDK: *
+D/LibSVM-NDK: NDK:
+    optimization finished, #iter = 22
+D/LibSVM-NDK: NDK: nu = 0.099552
+D/LibSVM-NDK: NDK: obj = -1.592862, rho = -0.155515
+D/LibSVM-NDK: NDK: nSV = 10, nBSV = 0
+D/LibSVM-NDK: NDK: Total nSV = 10
+D/LibSVM-NDK: NDK: *
+D/LibSVM-NDK: NDK:
+    optimization finished, #iter = 24
+D/LibSVM-NDK: NDK: nu = 0.100394
+D/LibSVM-NDK: NDK: obj = -1.606744, rho = -0.180158
+D/LibSVM-NDK: NDK: nSV = 8, nBSV = 0
+D/LibSVM-NDK: NDK: Total nSV = 8
+D/LibSVM-NDK: NDK: *
+D/LibSVM-NDK: NDK: .
+D/LibSVM-NDK: NDK: *
+D/LibSVM-NDK: NDK:
+    optimization finished, #iter = 34
+D/LibSVM-NDK: NDK: nu = 0.099378
+D/LibSVM-NDK: NDK: obj = -1.590614, rho = -0.172977
+D/LibSVM-NDK: NDK: nSV = 10, nBSV = 0
+D/LibSVM-NDK: NDK: Total nSV = 10
+D/LibSVM-NDK: NDK: *
+D/LibSVM-NDK: NDK:
+    optimization finished, #iter = 30
+D/LibSVM-NDK: NDK: nu = 0.098144
+D/LibSVM-NDK: NDK: obj = -1.570669, rho = -0.171800
+D/LibSVM-NDK: NDK: nSV = 9, nBSV = 0
+D/LibSVM-NDK: NDK: Total nSV = 9
+D/LibSVM-NDK: NDK: *
+D/LibSVM-NDK: NDK:
+    optimization finished, #iter = 21
+D/LibSVM-NDK: NDK: nu = 0.081626
+D/LibSVM-NDK: NDK: obj = -1.632658, rho = -0.167379
+D/LibSVM-NDK: NDK: nSV = 9, nBSV = 0
+D/LibSVM-NDK: NDK: *
+D/LibSVM-NDK: NDK:
+    optimization finished, #iter = 16
+D/LibSVM-NDK: NDK: nu = 0.129744
+D/LibSVM-NDK: NDK: obj = -1.556789, rho = -0.201464
+D/LibSVM-NDK: NDK: nSV = 8, nBSV = 1
+D/LibSVM-NDK: NDK: Total nSV = 8
+D/LibSVM-NDK: NDK: *
+D/LibSVM-NDK: NDK:
+    optimization finished, #iter = 16
+D/LibSVM-NDK: NDK: nu = 0.126932
+D/LibSVM-NDK: NDK: obj = -1.522915, rho = -0.197649
+D/LibSVM-NDK: NDK: nSV = 6, nBSV = 0
+D/LibSVM-NDK: NDK: Total nSV = 6
+D/LibSVM-NDK: NDK: *
+D/LibSVM-NDK: NDK:
+    optimization finished, #iter = 17
+D/LibSVM-NDK: NDK: nu = 0.134709
+D/LibSVM-NDK: NDK: obj = -1.616458, rho = -0.267425
+D/LibSVM-NDK: NDK: nSV = 9, nBSV = 0
+D/LibSVM-NDK: NDK: Total nSV = 9
+D/LibSVM-NDK: NDK: *
+D/LibSVM-NDK: NDK:
+    optimization finished, #iter = 17
+D/LibSVM-NDK: NDK: nu = 0.134709
+D/LibSVM-NDK: NDK: obj = -1.616458, rho = -0.267425
+D/LibSVM-NDK: NDK: nSV = 9, nBSV = 0
+D/LibSVM-NDK: NDK: Total nSV = 9
+D/LibSVM-NDK: NDK: *
+D/LibSVM-NDK: NDK:
+    optimization finished, #iter = 16
+D/LibSVM-NDK: NDK: nu = 0.134539
+D/LibSVM-NDK: NDK: obj = -1.614516, rho = -0.270509
+D/LibSVM-NDK: NDK: nSV = 9, nBSV = 1
+D/LibSVM-NDK: NDK: Total nSV = 9
+D/LibSVM-NDK: NDK: *
+D/LibSVM-NDK: NDK:
+    optimization finished, #iter = 17
+D/LibSVM-NDK: NDK: nu = 0.107767
+D/LibSVM-NDK: NDK: obj = -1.616458, rho = -0.267425
+D/LibSVM-NDK: NDK: nSV = 9, nBSV = 0
+D/LibSVM-NDK: NDK: *
+D/LibSVM-NDK: NDK:
+    optimization finished, #iter = 13
+D/LibSVM-NDK: NDK: nu = 0.096364
+D/LibSVM-NDK: NDK: obj = -1.156159, rho = -0.185768
+D/LibSVM-NDK: NDK: nSV = 6, nBSV = 0
+D/LibSVM-NDK: NDK: Total nSV = 6
+D/LibSVM-NDK: NDK: *
+D/LibSVM-NDK: NDK:
+    optimization finished, #iter = 12
+D/LibSVM-NDK: NDK: nu = 0.091968
+D/LibSVM-NDK: NDK: obj = -1.103563, rho = -0.167706
+D/LibSVM-NDK: NDK: nSV = 6, nBSV = 0
+D/LibSVM-NDK: NDK: Total nSV = 6
+D/LibSVM-NDK: NDK: *
+D/LibSVM-NDK: NDK:
+    optimization finished, #iter = 13
+D/LibSVM-NDK: NDK: nu = 0.096274
+D/LibSVM-NDK: NDK: obj = -1.155632, rho = -0.188564
+D/LibSVM-NDK: NDK: nSV = 6, nBSV = 0
+D/LibSVM-NDK: NDK: Total nSV = 6
+D/LibSVM-NDK: NDK: *
+D/LibSVM-NDK: NDK:
+    optimization finished, #iter = 13
+D/LibSVM-NDK: NDK: nu = 0.096407
+D/LibSVM-NDK: NDK: obj = -1.156945, rho = -0.192283
+D/LibSVM-NDK: NDK: nSV = 6, nBSV = 0
+D/LibSVM-NDK: NDK: Total nSV = 6
+D/LibSVM-NDK: NDK: *
+D/LibSVM-NDK: NDK:
+    optimization finished, #iter = 15
+D/LibSVM-NDK: NDK: nu = 0.089218
+D/LibSVM-NDK: NDK: obj = -1.070748, rho = -0.173704
+D/LibSVM-NDK: NDK: nSV = 8, nBSV = 0
+D/LibSVM-NDK: NDK: Total nSV = 8
+D/LibSVM-NDK: NDK: *
+D/LibSVM-NDK: NDK:
+    optimization finished, #iter = 12
+D/LibSVM-NDK: NDK: nu = 0.077146
+D/LibSVM-NDK: NDK: obj = -1.157218, rho = -0.192720
+D/LibSVM-NDK: NDK: nSV = 7, nBSV = 1
+D/LibSVM-NDK: NDK: *
+D/LibSVM-NDK: NDK: .
+D/LibSVM-NDK: NDK: *
+D/LibSVM-NDK: NDK:
+    optimization finished, #iter = 17
+D/LibSVM-NDK: NDK: nu = 0.117647
+D/LibSVM-NDK: NDK: obj = -1.380618, rho = -0.548108
+D/LibSVM-NDK: NDK: nSV = 8, nBSV = 1
+D/LibSVM-NDK: NDK: Total nSV = 8
+D/LibSVM-NDK: NDK: *
+D/LibSVM-NDK: NDK:
+    optimization finished, #iter = 16
+D/LibSVM-NDK: NDK: nu = 0.117647
+D/LibSVM-NDK: NDK: obj = -1.377075, rho = -0.538691
+D/LibSVM-NDK: NDK: nSV = 7, nBSV = 1
+D/LibSVM-NDK: NDK: Total nSV = 7
+D/LibSVM-NDK: NDK: *
+D/LibSVM-NDK: NDK:
+    optimization finished, #iter = 12
+D/LibSVM-NDK: NDK: nu = 0.117647
+D/LibSVM-NDK: NDK: obj = -1.352867, rho = -0.503048
+D/LibSVM-NDK: NDK: nSV = 7, nBSV = 1
+D/LibSVM-NDK: NDK: Total nSV = 7
+D/LibSVM-NDK: NDK: *
+D/LibSVM-NDK: NDK:
+    optimization finished, #iter = 12
+D/LibSVM-NDK: NDK: nu = 0.117647
+D/LibSVM-NDK: NDK: obj = -1.380195, rho = -0.545163
+D/LibSVM-NDK: NDK: nSV = 7, nBSV = 1
+D/LibSVM-NDK: NDK: Total nSV = 7
+D/LibSVM-NDK: NDK: *
+D/LibSVM-NDK: NDK:
+    optimization finished, #iter = 15
+D/LibSVM-NDK: NDK: nu = 0.095238
+D/LibSVM-NDK: NDK: obj = -1.381363, rho = -0.546617
+D/LibSVM-NDK: NDK: nSV = 8, nBSV = 1
+D/LibSVM-NDK: NDK: *
+D/LibSVM-NDK: NDK:
+    optimization finished, #iter = 18
+D/LibSVM-NDK: NDK: nu = 0.088299
+D/LibSVM-NDK: NDK: obj = -1.418195, rho = -0.116460
+D/LibSVM-NDK: NDK: nSV = 9, nBSV = 1
+D/LibSVM-NDK: NDK: Total nSV = 9
+D/LibSVM-NDK: NDK: *
+D/LibSVM-NDK: NDK:
+    optimization finished, #iter = 26
+D/LibSVM-NDK: NDK: nu = 0.088483
+D/LibSVM-NDK: NDK: obj = -1.427596, rho = -0.114649
+D/LibSVM-NDK: NDK: nSV = 10, nBSV = 1
+D/LibSVM-NDK: NDK: Total nSV = 10
+D/LibSVM-NDK: NDK: *
+D/LibSVM-NDK: NDK:
+    optimization finished, #iter = 16
+D/LibSVM-NDK: NDK: nu = 0.087136
+D/LibSVM-NDK: NDK: obj = -1.412269, rho = -0.109565
+D/LibSVM-NDK: NDK: nSV = 8, nBSV = 1
+D/LibSVM-NDK: NDK: Total nSV = 8
+D/LibSVM-NDK: NDK: *
+D/LibSVM-NDK: NDK:
+    optimization finished, #iter = 30
+D/LibSVM-NDK: NDK: nu = 0.088414
+D/LibSVM-NDK: NDK: obj = -1.419092, rho = -0.131583
+D/LibSVM-NDK: NDK: nSV = 11, nBSV = 1
+D/LibSVM-NDK: NDK: Total nSV = 11
+D/LibSVM-NDK: NDK: *
+D/LibSVM-NDK: NDK: .
+D/LibSVM-NDK: NDK: *
+D/LibSVM-NDK: NDK:
+    optimization finished, #iter = 33
+D/LibSVM-NDK: NDK: nu = 0.084903
+D/LibSVM-NDK: NDK: obj = -1.358529, rho = -0.123656
+D/LibSVM-NDK: NDK: nSV = 13, nBSV = 0
+D/LibSVM-NDK: NDK: Total nSV = 13
+D/LibSVM-NDK: NDK: *
+D/LibSVM-NDK: NDK:
+    optimization finished, #iter = 25
+D/LibSVM-NDK: NDK: nu = 0.070935
+D/LibSVM-NDK: NDK: obj = -1.428436, rho = -0.122496
+D/LibSVM-NDK: NDK: nSV = 11, nBSV = 1
+D/LibSVM-NDK: NDK: *
+D/LibSVM-NDK: NDK:
+    optimization finished, #iter = 13
+D/LibSVM-NDK: NDK: nu = 0.099778
+D/LibSVM-NDK: NDK: obj = -1.197600, rho = -0.137945
+D/LibSVM-NDK: NDK: nSV = 8, nBSV = 0
+D/LibSVM-NDK: NDK: Total nSV = 8
+D/LibSVM-NDK: NDK: *
+D/LibSVM-NDK: NDK:
+    optimization finished, #iter = 13
+D/LibSVM-NDK: NDK: nu = 0.099778
+D/LibSVM-NDK: NDK: obj = -1.197600, rho = -0.137945
+D/LibSVM-NDK: NDK: nSV = 8, nBSV = 0
+D/LibSVM-NDK: NDK: Total nSV = 8
+D/LibSVM-NDK: NDK: *
+D/LibSVM-NDK: NDK:
+    optimization finished, #iter = 10
+D/LibSVM-NDK: NDK: nu = 0.099667
+D/LibSVM-NDK: NDK: obj = -1.196496, rho = -0.131921
+D/LibSVM-NDK: NDK: nSV = 6, nBSV = 0
+D/LibSVM-NDK: NDK: Total nSV = 6
+D/LibSVM-NDK: NDK: *
+D/LibSVM-NDK: NDK:
+    optimization finished, #iter = 8
+D/LibSVM-NDK: NDK: nu = 0.096880
+D/LibSVM-NDK: NDK: obj = -1.162442, rho = -0.107627
+D/LibSVM-NDK: NDK: nSV = 6, nBSV = 0
+D/LibSVM-NDK: NDK: Total nSV = 6
+D/LibSVM-NDK: NDK: *
+D/LibSVM-NDK: NDK:
+    optimization finished, #iter = 11
+D/LibSVM-NDK: NDK: nu = 0.095274
+D/LibSVM-NDK: NDK: obj = -1.143669, rho = -0.145522
+D/LibSVM-NDK: NDK: nSV = 6, nBSV = 0
+D/LibSVM-NDK: NDK: Total nSV = 6
+D/LibSVM-NDK: NDK: *
+D/LibSVM-NDK: NDK:
+    optimization finished, #iter = 16
+D/LibSVM-NDK: NDK: nu = 0.079842
+D/LibSVM-NDK: NDK: obj = -1.197600, rho = -0.137861
+D/LibSVM-NDK: NDK: nSV = 8, nBSV = 0
+D/LibSVM-NDK: NDK: *
+D/LibSVM-NDK: NDK:
+    optimization finished, #iter = 20
+D/LibSVM-NDK: NDK: nu = 0.113267
+D/LibSVM-NDK: NDK: obj = -1.359125, rho = -0.167848
+D/LibSVM-NDK: NDK: nSV = 10, nBSV = 0
+D/LibSVM-NDK: NDK: Total nSV = 10
+D/LibSVM-NDK: NDK: *
+D/LibSVM-NDK: NDK:
+    optimization finished, #iter = 14
+D/LibSVM-NDK: NDK: nu = 0.112432
+D/LibSVM-NDK: NDK: obj = -1.349132, rho = -0.178935
+D/LibSVM-NDK: NDK: nSV = 10, nBSV = 0
+D/LibSVM-NDK: NDK: Total nSV = 10
+D/LibSVM-NDK: NDK: *
+D/LibSVM-NDK: NDK:
+    optimization finished, #iter = 16
+D/LibSVM-NDK: NDK: nu = 0.113223
+D/LibSVM-NDK: NDK: obj = -1.359081, rho = -0.168071
+D/LibSVM-NDK: NDK: nSV = 9, nBSV = 0
+D/LibSVM-NDK: NDK: Total nSV = 9
+D/LibSVM-NDK: NDK: *
+D/LibSVM-NDK: NDK:
+    optimization finished, #iter = 18
+D/LibSVM-NDK: NDK: nu = 0.112819
+D/LibSVM-NDK: NDK: obj = -1.354135, rho = -0.171740
+D/LibSVM-NDK: NDK: nSV = 10, nBSV = 0
+D/LibSVM-NDK: NDK: Total nSV = 10
+D/LibSVM-NDK: NDK: *
+D/LibSVM-NDK: NDK:
+    optimization finished, #iter = 16
+D/LibSVM-NDK: NDK: nu = 0.110706
+D/LibSVM-NDK: NDK: obj = -1.328784, rho = -0.111908
+D/LibSVM-NDK: NDK: nSV = 9, nBSV = 0
+D/LibSVM-NDK: NDK: Total nSV = 9
+D/LibSVM-NDK: NDK: *
+D/LibSVM-NDK: NDK:
+    optimization finished, #iter = 19
+D/LibSVM-NDK: NDK: nu = 0.090578
+D/LibSVM-NDK: NDK: obj = -1.359124, rho = -0.168058
+D/LibSVM-NDK: NDK: nSV = 10, nBSV = 0
+D/LibSVM-NDK: NDK: *
+D/LibSVM-NDK: NDK:
+    optimization finished, #iter = 12
+D/LibSVM-NDK: NDK: nu = 0.117647
+D/LibSVM-NDK: NDK: obj = -1.163087, rho = -0.274148
+D/LibSVM-NDK: NDK: nSV = 5, nBSV = 1
+D/LibSVM-NDK: NDK: Total nSV = 5
+D/LibSVM-NDK: NDK: *
+D/LibSVM-NDK: NDK:
+    optimization finished, #iter = 13
+D/LibSVM-NDK: NDK: nu = 0.117647
+D/LibSVM-NDK: NDK: obj = -1.100358, rho = -0.228183
+D/LibSVM-NDK: NDK: nSV = 7, nBSV = 1
+D/LibSVM-NDK: NDK: Total nSV = 7
+D/LibSVM-NDK: NDK: *
+D/LibSVM-NDK: NDK:
+    optimization finished, #iter = 9
+D/LibSVM-NDK: NDK: nu = 0.117647
+D/LibSVM-NDK: NDK: obj = -1.164996, rho = -0.280038
+D/LibSVM-NDK: NDK: nSV = 7, nBSV = 1
+D/LibSVM-NDK: NDK: Total nSV = 7
+D/LibSVM-NDK: NDK: *
+D/LibSVM-NDK: NDK:
+    optimization finished, #iter = 11
+D/LibSVM-NDK: NDK: nu = 0.117647
+D/LibSVM-NDK: NDK: obj = -1.164053, rho = -0.269592
+D/LibSVM-NDK: NDK: nSV = 6, nBSV = 1
+D/LibSVM-NDK: NDK: Total nSV = 6
+D/LibSVM-NDK: NDK: *
+D/LibSVM-NDK: NDK:
+    optimization finished, #iter = 10
+D/LibSVM-NDK: NDK: nu = 0.095238
+D/LibSVM-NDK: NDK: obj = -1.164997, rho = -0.280134
+D/LibSVM-NDK: NDK: nSV = 7, nBSV = 1
+D/LibSVM-NDK: NDK: *
+D/LibSVM-NDK: NDK:
+    optimization finished, #iter = 8
+D/LibSVM-NDK: NDK: nu = 0.105330
+D/LibSVM-NDK: NDK: obj = -1.264000, rho = -0.024762
+D/LibSVM-NDK: NDK: nSV = 5, nBSV = 0
+D/LibSVM-NDK: NDK: Total nSV = 5
+D/LibSVM-NDK: NDK: *
+D/LibSVM-NDK: NDK:
+    optimization finished, #iter = 7
+D/LibSVM-NDK: NDK: nu = 0.105320
+D/LibSVM-NDK: NDK: obj = -1.263800, rho = -0.022891
+D/LibSVM-NDK: NDK: nSV = 5, nBSV = 0
+D/LibSVM-NDK: NDK: Total nSV = 5
+D/LibSVM-NDK: NDK: *
+D/LibSVM-NDK: NDK:
+    optimization finished, #iter = 9
+D/LibSVM-NDK: NDK: nu = 0.103922
+D/LibSVM-NDK: NDK: obj = -1.254717, rho = -0.013578
+D/LibSVM-NDK: NDK: nSV = 7, nBSV = 1
+D/LibSVM-NDK: NDK: Total nSV = 7
+D/LibSVM-NDK: NDK: *
+D/LibSVM-NDK: NDK:
+    optimization finished, #iter = 10
+D/LibSVM-NDK: NDK: nu = 0.103047
+D/LibSVM-NDK: NDK: obj = -1.236492, rho = -0.051737
+D/LibSVM-NDK: NDK: nSV = 5, nBSV = 0
+D/LibSVM-NDK: NDK: Total nSV = 5
+D/LibSVM-NDK: NDK: *
+D/LibSVM-NDK: NDK:
+    optimization finished, #iter = 7
+D/LibSVM-NDK: NDK: nu = 0.105333
+D/LibSVM-NDK: NDK: obj = -1.264000, rho = -0.024759
+D/LibSVM-NDK: NDK: nSV = 5, nBSV = 1
+D/LibSVM-NDK: NDK: Total nSV = 5
+D/LibSVM-NDK: NDK: *
+D/LibSVM-NDK: NDK:
+    optimization finished, #iter = 8
+D/LibSVM-NDK: NDK: nu = 0.084264
+D/LibSVM-NDK: NDK: obj = -1.264000, rho = -0.024762
+D/LibSVM-NDK: NDK: nSV = 5, nBSV = 0
+D/LibSVM-NDK: NDK: *
+D/LibSVM-NDK: NDK:
+    optimization finished, #iter = 11
+D/LibSVM-NDK: NDK: nu = 0.080548
+D/LibSVM-NDK: NDK: obj = -0.966449, rho = -0.029454
+D/LibSVM-NDK: NDK: nSV = 5, nBSV = 0
+D/LibSVM-NDK: NDK: Total nSV = 5
+D/LibSVM-NDK: NDK: *
+D/LibSVM-NDK: NDK:
+    optimization finished, #iter = 7
+D/LibSVM-NDK: NDK: nu = 0.083720
+D/LibSVM-NDK: NDK: obj = -1.004378, rho = -0.033516
+D/LibSVM-NDK: NDK: nSV = 5, nBSV = 1
+D/LibSVM-NDK: NDK: Total nSV = 5
+D/LibSVM-NDK: NDK: *
+D/LibSVM-NDK: NDK:
+    optimization finished, #iter = 8
+D/LibSVM-NDK: NDK: nu = 0.083835
+D/LibSVM-NDK: NDK: obj = -1.006019, rho = -0.036150
+D/LibSVM-NDK: NDK: nSV = 7, nBSV = 1
+D/LibSVM-NDK: NDK: Total nSV = 7
+D/LibSVM-NDK: NDK: *
+D/LibSVM-NDK: NDK:
+    optimization finished, #iter = 11
+D/LibSVM-NDK: NDK: nu = 0.083707
+D/LibSVM-NDK: NDK: obj = -1.004519, rho = -0.032498
+D/LibSVM-NDK: NDK: nSV = 6, nBSV = 0
+D/LibSVM-NDK: NDK: Total nSV = 6
+D/LibSVM-NDK: NDK: *
+D/LibSVM-NDK: NDK:
+    optimization finished, #iter = 11
+D/LibSVM-NDK: NDK: nu = 0.083816
+D/LibSVM-NDK: NDK: obj = -1.006019, rho = -0.036309
+D/LibSVM-NDK: NDK: nSV = 7, nBSV = 0
+D/LibSVM-NDK: NDK: Total nSV = 7
+D/LibSVM-NDK: NDK: *
+D/LibSVM-NDK: NDK:
+    optimization finished, #iter = 7
+D/LibSVM-NDK: NDK: nu = 0.067086
+D/LibSVM-NDK: NDK: obj = -1.006019, rho = -0.035899
+D/LibSVM-NDK: NDK: nSV = 6, nBSV = 1
+D/LibSVM-NDK: NDK: *
+D/LibSVM-NDK: NDK:
+    optimization finished, #iter = 13
+D/LibSVM-NDK: NDK: nu = 0.117647
+D/LibSVM-NDK: NDK: obj = -1.208858, rho = -0.228566
+D/LibSVM-NDK: NDK: nSV = 4, nBSV = 1
+D/LibSVM-NDK: NDK: Total nSV = 4
+D/LibSVM-NDK: NDK: *
+D/LibSVM-NDK: NDK:
+    optimization finished, #iter = 6
+D/LibSVM-NDK: NDK: nu = 0.117647
+D/LibSVM-NDK: NDK: obj = -1.190028, rho = -0.233580
+D/LibSVM-NDK: NDK: nSV = 4, nBSV = 1
+D/LibSVM-NDK: NDK: Total nSV = 4
+D/LibSVM-NDK: NDK: *
+D/LibSVM-NDK: NDK:
+    optimization finished, #iter = 5
+D/LibSVM-NDK: NDK: nu = 0.117647
+D/LibSVM-NDK: NDK: obj = -1.203795, rho = -0.210704
+D/LibSVM-NDK: NDK: nSV = 4, nBSV = 1
+D/LibSVM-NDK: NDK: Total nSV = 4
+D/LibSVM-NDK: NDK: *
+D/LibSVM-NDK: NDK:
+    optimization finished, #iter = 4
+D/LibSVM-NDK: NDK: nu = 0.125000
+D/LibSVM-NDK: NDK: obj = -1.208860, rho = -0.228512
+D/LibSVM-NDK: NDK: nSV = 4, nBSV = 1
+D/LibSVM-NDK: NDK: Total nSV = 4
+D/LibSVM-NDK: NDK: *
+D/LibSVM-NDK: NDK:
+    optimization finished, #iter = 4
+D/LibSVM-NDK: NDK: nu = 0.095238
+D/LibSVM-NDK: NDK: obj = -1.208860, rho = -0.228512
+D/LibSVM-NDK: NDK: nSV = 4, nBSV = 1
+D/LibSVM-NDK: NDK: *
+D/LibSVM-NDK: NDK:
+    optimization finished, #iter = 1
+D/LibSVM-NDK: NDK: nu = 0.102028
+D/LibSVM-NDK: NDK: obj = -0.816228, rho = -0.000000
+D/LibSVM-NDK: NDK: nSV = 2, nBSV = 0
+D/LibSVM-NDK: NDK: Total nSV = 2
+D/LibSVM-NDK: NDK: *
+D/LibSVM-NDK: NDK:
+    optimization finished, #iter = 1
+D/LibSVM-NDK: NDK: nu = 0.102028
+D/LibSVM-NDK: NDK: obj = -0.816228, rho = -0.000000
+D/LibSVM-NDK: NDK: nSV = 2, nBSV = 0
+D/LibSVM-NDK: NDK: Total nSV = 2
+D/LibSVM-NDK: NDK: *
+D/LibSVM-NDK: NDK:
+    optimization finished, #iter = 1
+D/LibSVM-NDK: NDK: nu = 0.102028
+D/LibSVM-NDK: NDK: obj = -0.816228, rho = -0.000000
+D/LibSVM-NDK: NDK: nSV = 2, nBSV = 0
+D/LibSVM-NDK: NDK: Total nSV = 2
+D/LibSVM-NDK: NDK: *
+D/LibSVM-NDK: NDK:
+    optimization finished, #iter = 1
+D/LibSVM-NDK: NDK: nu = 0.102028
+D/LibSVM-NDK: NDK: obj = -0.816228, rho = -0.000000
+D/LibSVM-NDK: NDK: nSV = 2, nBSV = 0
+D/LibSVM-NDK: NDK: Total nSV = 2
+D/LibSVM-NDK: NDK: *
+D/LibSVM-NDK: NDK:
+    optimization finished, #iter = 1
+D/LibSVM-NDK: NDK: nu = 0.102028
+D/LibSVM-NDK: NDK: obj = -0.816228, rho = -0.000000
+D/LibSVM-NDK: NDK: nSV = 2, nBSV = 0
+D/LibSVM-NDK: NDK: Total nSV = 2
+D/LibSVM-NDK: NDK: *
+D/LibSVM-NDK: NDK:
+    optimization finished, #iter = 1
+D/LibSVM-NDK: NDK: nu = 0.081623
+D/LibSVM-NDK: NDK: obj = -0.816228, rho = -0.000000
+D/LibSVM-NDK: NDK: nSV = 2, nBSV = 0
+D/LibSVM-NDK: NDK: *
+D/LibSVM-NDK: NDK:
+    optimization finished, #iter = 1
+D/LibSVM-NDK: NDK: nu = 0.222222
+D/LibSVM-NDK: NDK: obj = -2.000000, rho = -1.000000
+D/LibSVM-NDK: NDK: nSV = 2, nBSV = 2
+D/LibSVM-NDK: NDK: Total nSV = 2
+D/LibSVM-NDK: NDK: *
+D/LibSVM-NDK: NDK:
+    optimization finished, #iter = 1
+D/LibSVM-NDK: NDK: nu = 0.222222
+D/LibSVM-NDK: NDK: obj = -2.000000, rho = -1.000000
+D/LibSVM-NDK: NDK: nSV = 2, nBSV = 2
+D/LibSVM-NDK: NDK: Total nSV = 2
+D/LibSVM-NDK: NDK: *
+D/LibSVM-NDK: NDK:
+    optimization finished, #iter = 1
+D/LibSVM-NDK: NDK: nu = 0.222222
+D/LibSVM-NDK: NDK: obj = -2.000000, rho = -1.000000
+D/LibSVM-NDK: NDK: nSV = 2, nBSV = 2
+D/LibSVM-NDK: NDK: Total nSV = 2
+D/LibSVM-NDK: NDK: *
+D/LibSVM-NDK: NDK:
+    optimization finished, #iter = 1
+D/LibSVM-NDK: NDK: nu = 0.222222
+D/LibSVM-NDK: NDK: obj = -2.000000, rho = -1.000000
+D/LibSVM-NDK: NDK: nSV = 2, nBSV = 2
+D/LibSVM-NDK: NDK: Total nSV = 2
+D/LibSVM-NDK: NDK: *
+D/LibSVM-NDK: NDK:
+    optimization finished, #iter = 1
+D/LibSVM-NDK: NDK: nu = 0.181818
+D/LibSVM-NDK: NDK: obj = -2.000000, rho = -1.000000
+D/LibSVM-NDK: NDK: nSV = 2, nBSV = 2
+D/LibSVM-NDK: NDK: *
+D/LibSVM-NDK: NDK:
+    optimization finished, #iter = 1
+D/LibSVM-NDK: NDK: nu = 0.181384
+D/LibSVM-NDK: NDK: obj = -0.816228, rho = 0.000000
+D/LibSVM-NDK: NDK: nSV = 2, nBSV = 0
+D/LibSVM-NDK: NDK: Total nSV = 2
+D/LibSVM-NDK: NDK: *
+D/LibSVM-NDK: NDK:
+    optimization finished, #iter = 1
+D/LibSVM-NDK: NDK: nu = 0.181384
+D/LibSVM-NDK: NDK: obj = -0.816228, rho = 0.000000
+D/LibSVM-NDK: NDK: nSV = 2, nBSV = 0
+D/LibSVM-NDK: NDK: Total nSV = 2
+D/LibSVM-NDK: NDK: *
+D/LibSVM-NDK: NDK:
+    optimization finished, #iter = 1
+D/LibSVM-NDK: NDK: nu = 0.181384
+D/LibSVM-NDK: NDK: obj = -0.816228, rho = 0.000000
+D/LibSVM-NDK: NDK: nSV = 2, nBSV = 0
+D/LibSVM-NDK: NDK: Total nSV = 2
+D/LibSVM-NDK: NDK: *
+D/LibSVM-NDK: NDK:
+    optimization finished, #iter = 1
+D/LibSVM-NDK: NDK: nu = 0.204057
+D/LibSVM-NDK: NDK: obj = -0.816228, rho = 0.000000
+D/LibSVM-NDK: NDK: nSV = 2, nBSV = 0
+D/LibSVM-NDK: NDK: Total nSV = 2
+D/LibSVM-NDK: NDK: *
+D/LibSVM-NDK: NDK:
+    optimization finished, #iter = 1
+D/LibSVM-NDK: NDK: nu = 0.148405
+D/LibSVM-NDK: NDK: obj = -0.816228, rho = 0.000000
+D/LibSVM-NDK: NDK: nSV = 2, nBSV = 0
+D/LibSVM-NDK: NDK: Total nSV = 76
+D/图片处理: 关闭了训练:9
